@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+html,body,main {
+    height: 100%;
+    width: 100%;
+}
+#page1 {
+    background-color: rgba(135, 207, 235, 0.224);;
+    height: 100vh;
+    width: 100%;
+    padding: 1vw 2vw 2vw 2vw;
+}
+#container {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0vw 1.5vw 1.5vw 1.5vw;
+}
+#nav {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav1 {
+    display: flex;
+}
+#nav1 span {
+    font-size: 2.2vw;
+    font-weight: 900;
+}
+#nav1 h2 {
+    font-size: 2.2vw;
+    font-weight: 500;
+}
+
+#nav2 {
+    display: flex;
+    gap: 2vw;
+}
+#nav2 h3 {
+    font-size: 1.1vw;
+    font-weight: 350;
+    cursor: pointer;
+}
+#nav3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+    cursor: pointer;
+}
+.big {
+    height: 0.2vh;
+    width: 1.8vw;
+    background-color: black;
+}
+.small {
+    height: 0.2vh;
+    width: 1.4vw;
+    margin-left: 0.4vw;
+    background-color: black;
+}
+#homeAndImage {
+    height: 92%;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+.imgContainer {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.imgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+}
+#home {
+    height: 92%;
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4vw 3vw 2.5vw 3vw;
+}
+#homePart1  h1 {
+    font-size: 8vw;
+    font-weight: 400;
+    line-height: 8vw;
+    color: white;
+}
+#homePart1 h3 {
+    letter-spacing: 0.1vw;
+    font-weight: 350;
+    color: white;
+    margin-top: 0.7vw
+}
+#bookNow {
+    margin-top: 2.5vw;
+    cursor: pointer;
+}
+#bookNow div {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1vw 2vw 1vw 3.5vw;
+    margin-right: 75vw;
+}
+#bookNow h2 {
+    font-size: 1vw;
+    font-weight: 400;
+}
+#cta {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-top: 10vw;
+}
+
+#leftRight {
+    display: flex;
+    gap: 1vw;
+}
+#leftRight i {
+    font-size: 1.5vw;
+    color: white;
+}
+#left {
+    padding: 1vw 1vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.003);
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+#leftRight :hover {
+    background-color: white;
+    color: black;
+}
+#leftRight :hover i{
+    color: black;
+}
+#right {
+    padding: 1vw 1vw;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.003);
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+#scrollDown h3 {
+    font-weight: 350;
+    font-size: 1.1vw ;
+    color: white;
+    margin-bottom: 0.5vw;
+}
+#down {
+    background-color: rgba(255, 255, 255, 0.407);
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding: 0.8vw 2vw;
+    border-radius: 25px;
+}
+#down i {
+    font-size: 1.8vw;
+    color: white;
+    cursor: pointer;
+}
