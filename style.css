@@ -55,6 +55,15 @@ html,body,main {
     gap: 0.2vw;
     cursor: pointer;
 }
+#nav3:hover .big{
+    width: 1.4vw;
+    margin-left: 0.8vw;
+    transition: all 0.5s ease-in-out;
+}
+#nav3:hover .small{
+    width: 1.8vw;
+    transition: all 0.5s ease-in-out;
+}
 .big {
     height: 0.2vh;
     width: 1.8vw;
@@ -137,7 +146,7 @@ html,body,main {
     color: white;
 }
 #left {
-    padding: 1vw 1vw;
+    padding: 0.8vw 0.8vw;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.003);
     border: 1px solid white;
@@ -152,7 +161,7 @@ html,body,main {
     color: black;
 }
 #right {
-    padding: 1vw 1vw;
+    padding: 0.8vw 0.8vw;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.003);
     border: 1px solid white;
@@ -176,4 +185,102 @@ html,body,main {
     font-size: 1.8vw;
     color: white;
     cursor: pointer;
+}
+@media (max-width: 600px) {
+    #page1 {
+        padding: 3vw 4vw 4vw 4vw;
+    }
+    #nav1 h2{
+        font-size: 7vw;
+    }
+    #nav1 span {
+        font-size: 5vw;
+    }
+    #nav2 {
+        display: none;
+    }
+    #container {
+        border-radius: 10px;
+        padding: 0vw 3vw 3vw 3vw;
+    }
+    #nav {
+        height: 7%;
+    }
+    #nav3 {
+        gap: 0.5vw;
+    }
+    #nav3:hover .big{
+        width: 3.4vw;
+        margin-left: 2.2vw;
+    }
+    #nav3:hover .small{
+        width: 4.5vw;
+    }
+    .big {
+        height: 0.3vh;
+        width: 4.5vw;
+    }
+    .small {
+        height: 0.3vh;
+        width: 3.4vw;
+        margin-left: 1.1vw;
+    }
+    #homeAndImage {
+        border-radius: 10px;
+    }
+    .imgContainer {
+        border-radius: 10px;
+    }
+    .imgContainer img {
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25vw 3vw 2.5vw 3vw;
+    }
+    #homePart1  h1 {
+        font-size: 12vw;
+        font-weight: 500;
+        line-height: 12vw;
+    }
+    #homePart1 h3 {
+        font-size: 3vw;
+        letter-spacing: 0.1vw;
+        font-weight: 250;
+        margin-top: 1.7vw
+    }
+    #bookNow {
+        margin-top: 4.5vw;
+    }
+    #bookNow div {
+        border-radius: 15px;
+        padding: 3.5vw 5vw 3.5vw 10vw;
+        margin-right: 45vw;
+    }
+    #bookNow h2 {
+        font-size: 3vw;
+        font-weight: 300;
+    }
+    #cta {
+        padding-top: 0vw;
+        margin-bottom:40vw;
+    }
+    #leftRight {
+        gap: 3vw;
+    }
+    #leftRight i {
+        font-size: 4.5vw;
+    }
+    #left {
+        padding: 0.9vw 0.9vw;
+    }
+    #right {
+        padding: 0.9vw 0.9vw;
+    }
+    #scrollDown {
+        display: none;
+    }
 }
